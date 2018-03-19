@@ -1,10 +1,44 @@
 html,
 body {
-    margin:0;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    postion: relative;
+}
 
-    display: table;
-    height: 100%;
-    width: 100%;
+h1 {
+    background-color: #305782;
+    color: #FFF;
+    padding: 60px 25px;
+    margin: 0;
+}
+
+nav {
+    z-index: 500;
+    background-color: #e7ecf2;
+    margin: 0 0 40px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #e7ecf2;
+    border-right: 2px solid #d5dce4;
+    color: #33557c;
+    font-size: 90%;
+    font-weight: bold;
 }
 
 .wrapper {
