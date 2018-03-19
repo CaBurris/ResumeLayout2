@@ -9,9 +9,18 @@ body {
 h1 {
     background-color: #305782;
     color: #FFF;
-    padding: 60px 25px;
+    padding: 60px 25px 10px;
     margin: 0;
 }
+
+h2 {
+    background-color: #305782;
+    color: #FFF;
+    padding: 10px 35px 30px;
+    margin: 0;
+}
+
+
 
 nav {
     z-index: 500;
