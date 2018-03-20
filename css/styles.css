@@ -11,8 +11,22 @@ body {
     height: 100%;
     //width:100%;
 }
-body {
-    //background-color: #66ffff;
+//.wrapper {
+    background-color: #b3b3cc;
+}
+
+
+
+.headshot {
+    //postion: absolute;
+    top: 0px;
+    right: 0px;
+    width: 170px;
+    height: 140px;
+
+}
+//nav ul li {
+    background-color: #b3b3cc;
 }
 
 h1 {
@@ -20,6 +34,7 @@ h1 {
     color: #FFF;
     padding: 60px 25px 10px;
     margin: 0;
+
 }
 
 h2 {
