@@ -29,7 +29,9 @@ h2 {
     margin: 0;
 }
 
-
+li {
+    padding: 5px;
+}
 
 nav {
     z-index: 500;
@@ -75,3 +77,7 @@ footer {
     display:table-row;
     height: 1px;
 }
+
+
+
+/* Gonna need a media at 630px */
