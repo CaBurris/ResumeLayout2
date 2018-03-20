@@ -9,7 +9,7 @@ body {
     /* stick footer */
     display: table;
     height: 100%;
-    width:100%;
+    //width:100%;
 }
 body {
     //background-color: #66ffff;
