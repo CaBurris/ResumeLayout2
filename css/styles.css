@@ -4,6 +4,15 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     postion: relative;
+
+
+    /* stick footer */
+    display: table;
+    height: 100%;
+    width:100%;
+}
+body {
+    //background-color: #66ffff;
 }
 
 h1 {
@@ -48,6 +57,11 @@ nav ul li a:visited {
     color: #33557c;
     font-size: 90%;
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: slategrey;
+    color: white;
 }
 
 .wrapper {
